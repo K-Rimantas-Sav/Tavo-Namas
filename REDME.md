@@ -1,4 +1,7 @@
-#Cia pavyzdziai kureis remettis padarytas projektas
-Cia pavyzdzia
+# Cia pavyzdziai kureis remettis padarytas projektas
 
-# Cia pavizdzia
+https://z500.lt/
+
+https://www.np5.lt/namu-projektai
+
+https://www.architektai.com/
