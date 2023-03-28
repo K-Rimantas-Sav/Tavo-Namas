@@ -1,4 +1,4 @@
-# Cia pavyzdziai kureis rementis padarytas projektas
+# Cia pavizdziai kuriais rementis padarytas projektas
 
 https://z500.lt/
 
