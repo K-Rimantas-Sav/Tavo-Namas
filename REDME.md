@@ -1,4 +1,4 @@
-# Cia pavyzdziai kureis remettis padarytas projektas
+# Cia pavyzdziai kureis rementis padarytas projektas
 
 https://z500.lt/
 
