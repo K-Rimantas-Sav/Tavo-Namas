@@ -7,10 +7,46 @@
 
 body {
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ededed;
 }
 
-body ul {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
   list-style: none;
+}
+
+input,
+textarea,
+select {
+  font-size: 16px;
+  padding: 0.3em 0.8em;
+  border-radius: 4px;
+  border: 1px solid #777;
+  display: block;
+  max-width: 300px;
+}
+
+textarea {
+  min-height: 5rem;
+  min-width: 500px;
+  resize: vertical;
+}
+
+button {
+  font-size: 16px;
+  padding: 0.3em 0.8em;
+  border-radius: 4px;
+  border: 1px solid #777;
+  cursor: pointer;
 }
 
 h1,
@@ -20,7 +56,42 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid rgb(198, 197, 197);
+  border-radius: 6px;
+  background-color: white;
+}
+
+/*  helpers */
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.max-w-300 {
+  max-width: 300px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-bar {
@@ -33,6 +104,13 @@ p {
   color: white;
 }
 
+.headLogo {
+  height: 60px;
+  width: 74px;
+  margin: 0;
+  font-size: 11px;
+}
+
 .headLogo img {
   height: 35px;
   padding-left: 14.5px;
@@ -40,19 +118,25 @@ p {
 
 .gridNav {
   background-color: #22224b;
-  height: 64px;
-  min-width: 571px;
-  padding-top: 0.2rem;
-  padding-left: 0.2rem;
+  height: 72px;
+  padding-top: 0.04rem;
+  padding-left: 0.6rem;
   padding-right: 0.2rem;
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  box-shadow: 2px 3px 9px 0px rgb(5, 39, 53);
+}
+
+.headLogo {
+  background-color: #4d4d9e;
+  border-radius: 2.1rem;
 }
 
 .gridNav h5 {
   color: rgb(239, 153, 153);
+  padding-left: 3.5px;
 }
 
 .gridNav h5 span {
@@ -69,7 +153,15 @@ p {
   color: rgb(205, 0, 106);
 }
 
+.menuList {
+  color: white;
+}
+
 .top-bar {
+  display: none;
+}
+
+.navMenu {
   display: none;
 }
 

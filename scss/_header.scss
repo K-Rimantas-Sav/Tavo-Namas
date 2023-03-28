@@ -9,21 +9,22 @@
   color: white;
 }
 
-// .headLogo {
-//   height: 60px;
-//   width: 74px;
-//   margin: 0;
-// }
+.headLogo {
+  height: 60px;
+  width: 74px;
+  margin: 0;
+  font-size: 11px;
+}
 .headLogo img {
   height: 35px;
   padding-left: 14.5px;
 }
 .gridNav {
   background-color: v.$header-backgraund-color;
-  height: 64px;
-  min-width: 571px;
-  padding-top: 0.2rem;
-  padding-left: 0.2rem;
+  height: 72px;
+
+  padding-top: 0.04rem;
+  padding-left: 0.6rem;
   padding-right: 0.2rem;
   align-items: center;
 
@@ -31,9 +32,15 @@
 
   flex-direction: row;
   justify-content: space-between;
+  box-shadow: 2px 3px 9px 0px rgb(5 39 53);
+}
+.headLogo {
+  background-color: #4d4d9e;
+  border-radius: 2.1rem;
 }
 .gridNav h5 {
   color: rgb(239, 153, 153);
+  padding-left: 3.5px;
 }
 .gridNav h5 span {
   color: rgb(255, 250, 196);
@@ -45,4 +52,7 @@
 }
 .mobMeniu button:hover {
   color: rgb(205, 0, 106);
+}
+.menuList {
+  color: white;
 }
