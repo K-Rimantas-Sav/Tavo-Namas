@@ -3,7 +3,7 @@
 .top-bar {
   height: 40px;
   background-color: #000;
-  padding: 0 1em;
+  padding: 0.1em;
 }
 .helpline {
   color: white;
@@ -24,7 +24,7 @@
   height: 72px;
 
   padding-top: 0.04rem;
-  padding-left: 0.6rem;
+  padding-left: 1.9rem;
   padding-right: 0.2rem;
   align-items: center;
 
@@ -45,14 +45,34 @@
 .gridNav h5 span {
   color: rgb(255, 250, 196);
 }
-.mobMeniu button {
-  background-color: v.$header-backgraund-color;
-  color: white;
-  border: none;
-}
-.mobMeniu button:hover {
-  color: rgb(205, 0, 106);
-}
+// Nav meniu
+
 .menuList {
+  display: none;
+  position: absolute;
+  padding: 2.5px 0 2.5px 0;
   color: white;
+  background-color: #4d4d9e;
+  font-size: 0.9rem;
+  text-align: left;
+}
+.menuList li:hover {
+  color: rgb(227, 235, 186);
+}
+.hasSubmenu:hover {
+  color: rgb(205, 0, 106);
+  .menuList {
+    display: block;
+  }
+}
+
+.hasSubmenu {
+  color: white;
+  position: relative;
+  padding-right: 3rem;
+  text-align: center;
+  margin: 0;
+}
+.header {
+  padding-bottom: 3rem;
 }

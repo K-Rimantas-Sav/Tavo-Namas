@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tavo Namas</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/main.js" defer></script>
   </head>
   <body>
     <!---->
-    <section id="header">
+    <section class="header">
       <!-- Top Bar Start-->
       <div class="top-bar">
         <div class="helpline">
@@ -28,22 +29,45 @@
           <h5><span>TavO</span> Namas</h5>
         </div>
         <div class="mobMeniu">
-          <button>Meniu</button>
-          <div class="navMenu">
-            <ul class="menuList">
-              <li>Projektavimas</li>
-              <li>Statyba</li>
-              <li>Interjieras</li>
-              <li>Sklypai</li>
-              <li>Renovacija</li>
-              <li>Kontaktai</li>
-            </ul>
-          </div>
+          <!-- <h4 class="hasSubmenu">Meniu</h4> -->
+          <ul>
+            <li class="hasSubmenu">
+              <a href="#">Meniu</a>
+              <ul class="menuList">
+                <li>
+                  <a href="#">Projektavimas</a>
+                </li>
+                <li>
+                  <a href="#">Statyba</a>
+                </li>
+                <li>
+                  <a href="#">Interjieras</a>
+                </li>
+                <li>
+                  <a href="#">Sklypai</a>
+                </li>
+                <li>
+                  <a href="#">Renovacija</a>
+                </li>
+                <li>
+                  <a href="#">Kontaktai</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
         <!-- Nav Menu -->
       </nav>
       <!---->
     </section>
     <!---->
+    <section class="projektai">
+      <div class="projektas card"></div>
+      <div class="projektas card"></div>
+      <div class="projektas card"></div>
+      <div class="projektas card"></div>
+      <div class="projektas card"></div>
+      <div class="projektas card"></div>
+    </section>
   </body>
 </html>
