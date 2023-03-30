@@ -174,10 +174,20 @@ p {
 
 .header {
   padding-bottom: 3rem;
+  width: 100%;
+}
+
+/* Projektai Scss */
+.projektas {
+  height: 15.5rem;
+  margin-top: 20px;
 }
 
 .top-bar {
   display: none;
 }
 
-/* Media Scss *//*# sourceMappingURL=main.css.map */
+/* Media Scss */
+body {
+  background-color: #d9ece9;
+}/*# sourceMappingURL=main.css.map */
