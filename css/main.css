@@ -213,7 +213,7 @@ p {
   color: #6c757d;
   height: 60vh;
   padding-top: 5px;
-  margin-top: 10px;
+  margin-top: 2rem;
 }
 
 .footLogo {
@@ -246,6 +246,24 @@ p {
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .top-bar {
+    display: block;
+    padding-bottom: 4px;
+    margin: 0;
+  }
+  .helpline {
+    display: flex;
+    height: 2rem;
+  }
+  .helpline li {
+    padding-left: 9px;
+  }
+  .projektai {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 /* Media Scss */
 body {
   background-color: #d9ece9;
